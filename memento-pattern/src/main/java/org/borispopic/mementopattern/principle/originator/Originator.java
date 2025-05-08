@@ -24,7 +24,11 @@ public abstract class Originator<T, U> {
     }
 
     public Memento<T> createStateSnapshoot() {
-        return new Memento<>(this.currentStateSnapshoot);
+        Memento<T> memento = new Memento<>(this.currentStateSnapshoot);
+
+        this.currentStateSnapshoot = null;
+
+        return memento;
     }
 
     public T getStateSnapshoot(Memento<T> memento) {

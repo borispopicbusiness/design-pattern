@@ -10,6 +10,9 @@ public class OriginatorImpl extends Originator<String, String> {
         if(stateUpdate == null)
             throw new IllegalArgumentException("State update cannot be null");
 
+        if(this.currentStateSnapshoot == null)
+            this.currentStateSnapshoot = "";
+
         this.currentStateSnapshoot += stateUpdate;
     }
 }

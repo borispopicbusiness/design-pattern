@@ -32,4 +32,8 @@ public class Caretaker {
 
         return history.remove(history.size() - 1);
     }
+
+    public long size() {
+        return history.size();
+    }
 }
