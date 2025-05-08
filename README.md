@@ -1,0 +1,19 @@
+## Design Patterns Project
+
+This project serves as a collection of demonstrations for various software design patterns in Java.
+
+Each pattern is organized as a separate module and is divided into two main subpackages:
+
+  principle — Contains a minimal, focused implementation that illustrates the core idea of the pattern.
+
+  example — Contains a more practical or real-world example that applies the pattern in context.
+
+### Implemented patterns
+
+✅ The Memento Pattern
+
+Capture and externalize an object's internal state so that it can be restored later, without violating encapsulation.
+
+- principle: Demonstrates the core mechanics of originator, memento, and caretaker.
+
+- example: Applies the pattern in a real-world scenario
