@@ -17,7 +17,7 @@ import org.borispopic.mementopattern.principle.memento.Memento;
  */
 
 public abstract class Originator<T, U> {
-    private T currentStateSnapshoot;
+    protected T currentStateSnapshoot;
 
     public void write(U stateUpdate) {
         updateState(stateUpdate);
