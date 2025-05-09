@@ -17,16 +17,16 @@ import org.borispopic.mementopattern.principle.memento.Memento;
  */
 
 public abstract class Originator<T, U> {
-    protected T currentStateSnapshoot;
+    protected T currentStateSnapshot;
 
     public void write(U stateUpdate) {
         updateState(stateUpdate);
     }
 
     public Memento<T> createStateSnapshoot() {
-        Memento<T> memento = new Memento<>(this.currentStateSnapshoot);
+        Memento<T> memento = new Memento<>(this.currentStateSnapshot);
 
-        this.currentStateSnapshoot = null;
+        this.currentStateSnapshot = null;
 
         return memento;
     }
@@ -42,5 +42,5 @@ public abstract class Originator<T, U> {
      * @param stateUpdate The incremental update to be applied to the current state
      * @throws IllegalArgumentException if the state update is invalid or incompatible
      */
-    public abstract void updateState(U stateUpdate) throws IllegalArgumentException;
+    protected abstract void updateState(U stateUpdate) throws IllegalArgumentException;
 }
