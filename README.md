@@ -13,3 +13,7 @@ Each pattern is organized as a separate module and is divided into two main subp
 ✅ The Memento Pattern
 
 Capture and externalize an object's internal state so that it can be restored later, without violating encapsulation.
+
+✅ The Factory Method Pattern
+
+This approach abstracts away the specifics of which class gets instantiated, encouraging flexible and loosely coupled code that aligns well with the dependency inversion principle.
