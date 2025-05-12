@@ -17,3 +17,7 @@ Capture and externalize an object's internal state so that it can be restored la
 ✅ The Factory Method Pattern
 
 This approach abstracts away the specifics of which class gets instantiated, encouraging flexible and loosely coupled code that aligns well with the dependency inversion principle.
+
+✅ The Observer pattern
+
+The Observer pattern establishes a one-to-many relationship between objects, A subject (publisher) maintains a list of observers.

@@ -10,6 +10,7 @@
     <description>design-pattern</description>
     <modules>
         <module>factory-pattern</module>
+        <module>observer-pattern</module>
     </modules>
 
     <properties>
