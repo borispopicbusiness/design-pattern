@@ -11,6 +11,7 @@
     <modules>
         <module>factory-pattern</module>
         <module>observer-pattern</module>
+        <module>abstract-factory-pattern</module>
     </modules>
 
     <properties>
@@ -23,6 +24,12 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
             <version>1.18.38</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
