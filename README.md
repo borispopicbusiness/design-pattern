@@ -1,5 +1,7 @@
 ## Design Patterns Project
 
+(This project is used for my blog.)
+
 This project serves as a collection of demonstrations for various software design patterns in Java.
 
 Each pattern is organized as a separate module and is divided into two main subpackages:
